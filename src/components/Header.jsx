@@ -1,7 +1,7 @@
 import Title from "./Title";
 const Header = (props) => {
   return (
-    <header class="header">
+    <header className="header">
       <Title name={props.name} />
     </header>
   );
