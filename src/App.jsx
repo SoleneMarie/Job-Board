@@ -1,13 +1,11 @@
 import "./App.css";
-import Title from "./components/Title.jsx";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
       <section className="mainBlock">
-        <header>
-          <Title name="The Job Board" />
-        </header>
+        <Header name="The Job Board" />
         <main>
           <section className="allJobs">
             <Job
