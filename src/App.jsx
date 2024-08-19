@@ -7,7 +7,7 @@ function App() {
     <>
       <Header name="The Job Board" />
       <Jobs
-        className="oneJob"
+        className="oneRedJob"
         title="Full Time Sales Associate - Sydney Boutique"
         contractType="CDI"
         country="Australie"
